@@ -9,59 +9,81 @@
     <meta name="description" content="">
     
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto
+    " rel="stylesheet">   
 </head>
 <body>
     <header>
-        <!-- <div class="background"><img src="images\Rectangle 1.png"></div> -->
-        <div class="logo"><img src="images\logo_sublight.png"></div>
         <div class="nav-bar">
-            <ul>
-                <li>Our Services</li>
-                <li>Our Products</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
+            <div class="logo">
+                <img src="images/logo_sublight.png">  
+            </div>
+            <ul style = "list-style: none;">
+                <li>
+                    <a href = "#" class = "nav-links">Our Services</a>
+                </li>
+                <li>
+                    <a href = "#" class = "nav-links">Our Products</a>
+                </li>
+                <li>
+                    <a href = "#" class = "nav-links">About Us</a>
+                </li>
+                <li>
+                    <a href = "#" class = "nav-links">Contact Us</a>
+                </li>
             </ul>     
         </div>
     </header>
-    <main>
         <!-- VVVVVVVVVVVVVVVVVV ***OUR MISSION*** VVVVVVVVVVVVVVVVVV  -->
-        <section class="background1">
-            <img src="images\bkg_1 1.png" alt="">
+    <div id="hero">
+        <div class="hero-container">
             <div>
-                <p>OUR MISSION</p>
-                <P>TAKE YOU TO THE TOP</p>
-                <img src="images\elevator button.png" alt="">
-            </div>    
-        </section>
+                <h1>OUR MISSION</h1>
+                <h2>TAKE YOU TO THE TOP</h2>  
+                <img src="images/elevator button.png" alt="elevatorButton">
+            </div>
+
+        </div>
+
+    </div>
         <!-- ^^^^^^^^^^^^^^^^^^^^^ ***our mission*** ^^^^^^^^^^^^^^^^^^^ -->
-
-
+    <main>
         <!-- VVVVVVVVVVVVVVVVVV ***BUILD/DESIGN/MAINTAIN*** VVVVVVVVVVVVVVVVVV -->
-        <section>
-            <img src="images\Rectangle 2.png" alt="">
-            <div>
-                <p>ONE STOP FOR YOUR ELEVATOR NEEDS</p>
-                <p>ONE STEP CLOSER TO SUCCESS</p>
-                <img src="images\separator.png" alt="">
+        <div id="mid">
+            <div class="mid-container">
+                <h1>ONE STOP FOR YOUR ELEVATOR NEEDS</h1>
+                <h2>ONE STEP CLOSER TO SUCCESS</h2>
+                <div class="separator">
+                    <img src="images\separator.png" alt="">
+                </div>
+                <div class="design">
+                    <div>
+                    <img src="images\design.png" alt="">
+                    <h1>WE DESIGN</h1>
+                    </div>
+                    <div>
+                    <img src="images\build.png" alt="">
+                    <h1>WE DESIGN</h1>
+                    </div>
+                    <div>   
+                    <img src="images\maintenance.png" alt="">
+                    <h1>WE MAINTAIN</h1>
+                    </div>
+                </div>
+
             </div>
-            <div>
-                <img src="images\design.png" alt="">
-                <img src="images\build.png" alt="">
-                <img src="images\maintenance.png" alt="">
-                <p>WE DESIGN</p>
-                <p>WE BUILD</p>
-                <p>WE MAINTAIN</p>
-            </div>
-        </section>
+        </div>
         <!--^^^^^^^^^^^^^^^^ ***build/design/maintain*** ^^^^^^^^^^^^^^^^  -->
 
         <!-- VVVVVVVVVVVVVVV ***SECUREBOARDS***  VVVVVVVVVVVVVVV-->
-        <section>
-            <div>
-                <p>2022 SECUREBOARDS SERIES</p>
-                <p>THE PERFECTION IN SECURITY</p>
-                <h1>
+        <div id="secureboard">
+            <div class="info">
+                <h1>2022 SECUREBOARDS SERIES</h1>
+                <h2>THE PERFECTION IN SECURITY</h2>
+                <h3>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vulputate 
                     diam plaverat a et pulvinar sapien orci mauris platea. Consectetur 
                     non adipiscing duis quis leo integer adipiscing elit. Felis, cursus 
@@ -70,62 +92,118 @@
                     consectetur mi consectetur. At faucibus pellentesque et aliquet 
                     elementum cum suspendisse quam. Congue sagittis fermentum 
                     mauris fermentum ut lectus parturient faucibus id.
-                </h1>
+                </h3>
             </div>
-            <div>
+            <div class="buttonphoto">
                 <img src="images\bkg_2 1.png" alt="">
             </div>
-        </section>
+        </div>
         <!--^^^^^^^^^^^^^^^^ ***secureboards*** ^^^^^^^^^^^^^^^^  -->
         
         <!-- VVVVVVVVVVVVVVV ***PRODUCTS***  VVVVVVVVVVVVVVV-->
-        <section>
-            <img src="images\Rectangle 3.png" alt="">
-            <div>
-                <p>NEED MORE FOR YOUR FLEET OF ELEVATORS</p>
-                <p>ALL OUR PRODUCTS ARE MADE</p>
-                <p>WITH HEART AND SOUL</p>
-                <img src="images\separator.png" alt="">
+        <div id="product">
+            <div class="products">
+                <h1>NEED MORE FOR YOUR FLEET OF ELEVATORS</h1>
+                <h2>ALL OUR PRODUCTS ARE MADE</h2>
+                <h2>WITH HEART AND SOUL</h2>
+            <div class="separator2">
+                <img src="images\separatorBlack.png" alt="">
             </div>
-            <div>
-                <div>
+            </div>
+            <div class=" products2">
+                <div class="a">
                     <img src="images\bkg_2 2.png" alt="">
-                    <img src="images\Rectangle 5.png" alt="">
+                    <h1>SAFETY</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
                 </div>
-                <div>
+                <div class="a">
                     <img src="images\bkg_2 2 (1).png" alt="">
-                    <img src="images\Rectangle 5.png" alt="">
+                    <h1>CAB</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
                 </div>
-                <div>
+                <div class="a">
                     <img src="images\bkg_2 2 (2).png" alt="">
-                    <img src="images\Rectangle 5.png" alt="">
+                    <h1>DOOR</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
                 </div>
-                <div>
+                <div class="a">
                     <img src="images\bkg_2 2 (3).png" alt="">
-                    <img src="images\Rectangle 5.png" alt="">
+                    <h1>MECHANICS</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
                 </div>
-                <div>
+                <div class="a">
                     <img src="images\bkg_2 2 (4).png" alt="">
-                    <img src="images\Rectangle 5.png" alt="">
+                    <h1>HOISTWAY/HATCH</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur</h2>
                 </div>
             </div>
-        </section>
+            <div class="catelog">
+                <button type="submit" href="https://www.youtube.com/watch?v=p7YXXieghto">DOWNLOAD OUR CATELOG</button>
+            </div>
+        </div>
         <!--^^^^^^^^^^^^^^^^ ***products*** ^^^^^^^^^^^^^^^^  --> 
         
         <!-- VVVVVVVVVVVVVVV ***FORMS***  VVVVVVVVVVVVVVV-->
-        <section>
-            <p>STAY IN TOUCH WITH OUR CUSTOMER SERVICE</p>
-            <p>FEEL FREE TO CONTACT US</p>
-            <p>FOR ANY QUESTIONS</p>
-            <img src="images\separator.png" alt="">
+        <div id="form">
             <div class="form">
+                <h1>STAY IN TOUCH WITH OUR CUSTOMER SERVICE</h1>
+                <h2>FEEL FREE TO CONTACT US</h2>
+                <h2>FOR ANY QUESTIONS</h2>
+            </div>
+            <div class="separator3">
+                <img src="images\separatorBlack.png" alt="">
+            </div>
+            <form class="name">
+                <!-- <fieldset> -->
+                    <div class="formContainer">
+                        <div class>
+                            <label for="name" >NAME *</label><br>
+                            <input required type="text" placeholder="Enter your full name" value="" class="form-control" name="name" id="name"><br>
+                        </div><br>
+                        <div class>
+                            <label for="email" >EMAIL ADDRESS *</label><br>
+                            <input required type="text" placeholder="yourname@company.com" value="" class="form-control" name="email" id="email">
+                        </div><br>
+                        <div class="container2">
+                            <div class="phone">
+                            <label for="phone" >PHONE NUMBER</label><br>
+                            <input required type="text" placeholder="0 (000) 000-0000" value="" class="form-control" name="phone" id="phone">
+                            </div>
+                            <!-- </div>
+                        <div class> -->
+                            <div class="language">
+                            <label for="language">PREFERRED LANGUAGE</label><br>
+                            <select required name="language" id="language">
+                            <option value="Select">Select</option>
+                            <option value="English">English</option>
+                            <option value="English">English</option>
+                            <option value="English">English</option>
+                            <option value="English">Still English</option>
+                            <option value="English">Ye Olde English</option>   
+                            </select>
+                            </div>
+                        </div><br><br>
+                        <div class="submit">
+                            <button type="submit" href="https://www.wikihow.com" >SUBMIT</button>
+                        </div>
+                    </div> 
+                <!-- </fieldset> -->
+            </form>
+            </div>
+        </div>
+        <!--^^^^^^^^^^^^^^^^ ***forms*** ^^^^^^^^^^^^^^^^  -->
 
-
+        <!-- VVVVVVVVVVVVVVV ***BOTTOM***  VVVVVVVVVVVVVVV-->
+        <div id="bottom">
+            <div class="bottom">
+                <h1>With your trust since 1943.</h1> <br>
+                <img src="images/signature.png" alt="">
             </div>
 
+        </div>
 
-        </section>
-        <!--^^^^^^^^^^^^^^^^ ***forms*** ^^^^^^^^^^^^^^^^  -->
+
+        <!--^^^^^^^^^^^^^^^^ ***bottom*** ^^^^^^^^^^^^^^^^  -->        
 
 
     </main>
@@ -134,21 +212,21 @@
 
     <!-- FOOTER -->
     <footer>
-        <div>
-            <ul>
-                <li>UNITED STATES OFFICE</li>
-                <li>456 HARLEM BOULEVARD</li>
-                <li>SARATOGA SPRINGS, NY, USA</li>
-                <li>1 999 543-4567</li>
-            </ul>
-            <ul>
-                <li>CANADA'S OFFICE</li>
-                <li>23895 BRADSHAW BOULEVARD</li>
-                <li>KINGSTON, ONT, CA</li>
-                <li>1 999 543 4567</li>
-            </ul>
+        <div class="address">
+            <div class="US">
+                <h1>UNITED STATES OFFICE</h1>
+                <h2>456 HARLEM BOULEVARD</h2>
+                <h2>SARATOGA SPRINGS, NY, USA</h2>
+                <h3>1 999 543-4567</h3>
+            </div>
+            <div class="CA">
+                <h1>CANADA'S OFFICE</h1>
+                <h2>23895 BRADSHAW BOULEVARD</h2>
+                <h2>KINGSTON, ONT, CA</h2>
+                <h3>1 999 543 4567</h3>
+            </div>
         </div>
-        <div>
+        <div class="copyright">
             <p>All rights reserved to Codeboxx Solutions ©,2022.</p>
         </div>
 
