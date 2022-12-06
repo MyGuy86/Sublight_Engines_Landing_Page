@@ -1,0 +1,564 @@
+/* MOBILE SETTINGS */
+
+@media only screen and (max-width: 400px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body { 
+        width: 400px;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 0rem;
+
+    }
+
+    header img {
+        width: 199px;
+        padding-top: 10%;
+    }
+    .nav-bar {
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.69);
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        
+    }
+
+    .topNav {
+        /* justify-content: space-around; */
+        /* align-items: right; */
+        /* top: 49px; */
+        padding-top: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+
+        background-color: rgba(0, 0, 0, 0.69);;
+
+    }
+    .nav-links {
+        color: white;
+        padding-right: 65px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+        /* (A) BREAK INTO VERTICAL MENU */
+    .topNav a {
+    box-sizing: border-box;
+    /* position: relative;
+    right: 100px; */
+    width: 390px;
+    display: block;
+    width: 390px;
+    height: 40px;
+    border-top: 1px rgba(0, 0, 0, 0.69);
+    }
+
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label { 
+    right: 0;
+    display: inline-block; 
+    color: white;
+    background-color:rgba(0, 0, 0, 0.69);;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 20px;
+    }
+
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    /* .topNav { display: none; } */
+    #hamnav input:checked ~ .topNav { display: block; }
+    
+
+
+
+    #hero {
+        background-image: url("../images/bkg_1 1.png"); /* The image used */
+        /* background-color: #cccccc1d; Used if the image is unavailable */
+        width: 100%;
+        height: 554px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        }
+
+    .hero-container div{
+        padding-top: 35%;
+        /* width: 100%;
+        height: 100%; */
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .hero-container  h1{
+        padding-top: 55%;
+        color: white;
+        height: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 100%;
+        text-align: center;
+        padding-bottom: 1%;
+        
+        }
+    .hero-container  h2{
+        color: white;
+        height: 100%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 105%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .hero-container img {
+        justify-content: center;
+        height: 57px;
+        width: 57px;
+        margin: auto;
+
+    }
+
+    #mid {
+        background-color:rgba(56, 56, 56, 1); 
+        
+        width: 100%;
+        height: 1513px;
+
+    }
+
+    .mid-container {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20%;
+    }
+
+    .mid-container h1{
+        color: white;
+        font-family: 'Roboto';
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 105%;
+        text-align: Center;
+        vertical-align: Top;
+        padding-bottom: 3%;
+        
+    }
+
+    .mid-container h2{
+        color: white;
+        font-family: 'Roboto';
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 105%;
+        text-align: Center;
+        vertical-align: Top;
+        padding-bottom: 5%;
+    }
+
+    .mid-container h3{
+        color: white;
+        font-family: 'Roboto';
+        font-style: Bold;
+        font-size: 25px;
+        line-height: 105%;
+        text-align: Center;
+        vertical-align: Top;
+        padding-bottom: 3%;
+        
+    }
+
+    .mid-container .separator {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+
+    .mid-container .design {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .mid-container img {
+        padding-bottom: 10%;
+    }
+
+    .mid-container .d {
+        padding: 10% 0%;
+    }
+
+
+
+    #secureboard {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 18%;
+        padding-bottom: 20%;
+
+    }
+
+    .info{
+        padding: 0%;
+    }
+
+    .buttonphoto {
+        padding: 0%;
+    }
+
+    .buttonphoto img {
+        width: 100%;
+    }
+
+    .info h1{
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: left;
+        padding-top: 10%;
+        padding-bottom: 1%;
+    }
+
+    .info h2{
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: left;
+        padding-bottom: 3%;
+    }
+
+    .info h3{
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 115%;
+        text-align: left;
+    }
+
+    #product {
+        background-color: rgba(255, 118, 48, 1);
+        width: 100%;
+        height: 1700px;
+        align-items: center;
+        padding-top: 15%;
+
+
+    }
+
+    .products {
+        align-items: center;
+
+    }
+
+    .products .separator2 {
+        padding-top: 6%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+
+    .products h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: Center;
+        vertical-align: Top;
+        padding-bottom: 5%;
+
+    }
+
+    .products h2 {
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 100%;
+        text-align: Center;
+        vertical-align: Top;
+        padding-bottom: 1%;
+    }
+
+    .products2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .a {
+        margin-top: 7%;
+        width: 255px;
+    }
+
+    .a h1 {
+        
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: Center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .a h2 {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: center;
+        padding: 0px 4px;
+        padding-bottom: 5%;
+    }
+
+    .catelog {
+        width: 390px;
+        height: 106px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        padding-top: 0%;
+        background-color:rgba(0, 0, 0, 0.69);    
+        
+    }
+    .catelog a {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding-top: 0%;
+
+    }
+    .catelog button {
+        background-color:rgba(0, 0, 0, 0.69);;
+        color: white;
+        border: solid;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: Center;
+        padding: 10px 50px      
+    }
+
+
+    #form {
+        align-items: center;
+        padding-top: 10%;
+        height: 550px;
+
+    }
+
+    .form h1 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: Center;
+        padding-bottom: 4%;
+    }
+
+    .form h2{
+        color: rgba(255, 118, 48, 1);
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: Center;
+        padding-bottom: 1%;
+    }
+
+    .separator3 {
+        display: flex;
+        justify-content: center;
+        padding: 5% 0%;
+    }
+
+    .name {
+        display: flex;
+        justify-content: left;
+        width: 375px;
+        height: 500px;
+        margin: 0;
+    }
+
+    .formContainer {
+        font-family: 'Roboto';
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-top: 10%;
+        margin: 10px;
+    }
+    .formContainer label {
+        padding-left: 2%;
+    }
+    .formContainer input {
+        padding: 5px 100px;
+        margin: 10px 10px;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 input {
+        padding: 5px 100px;
+        margin: 10px 10px;
+    }
+
+    .language select {
+        padding: 5px 120px;
+        margin: 10px 10px;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .submit button {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding: 10px 145px;
+    }
+
+
+    #bottom {
+        background-color: rgba(41, 41, 41, 1)
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom h1 {
+        padding-top: 3%;
+        padding-right: 3%;
+        color: rgba(255, 118, 48, 1);
+        font-family: 'Roboto';
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .bottom img {
+        padding: 5% 10%;
+        padding-bottom: 10%;
+    }
+
+
+    #footer {
+        align-items: center;
+    }
+
+    .address {
+        padding-top: 12%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .US {
+        justify-content: left;
+    }
+
+    .US h1 {
+        color: rgba(255, 118, 48, 1);
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .US h2 {
+        font-family: 'Roboto';
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 110%;
+        text-align: center;
+        padding-bottom: 2px;
+    }
+
+    .US h3 {
+        font-family: 'Roboto';
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 100%;
+        text-align: center;
+
+    }
+
+    .CA {
+        justify-content: center;
+        padding-top: 12%;
+    }
+    .CA h1 {
+        color: rgba(255, 118, 48, 1);
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .CA h2 {
+        font-family: 'Roboto';
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 110%;
+        text-align: center;
+        padding-bottom: 2px;
+    }
+
+    .CA h3 {
+        font-family: 'Roboto';
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 100%;
+        text-align: center;
+    }
+
+
+    .copyright {
+        padding-top: 22%;
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto';
+        font-size: 10px;
+        line-height: 100%;
+        text-align: Center;
+    }
+}

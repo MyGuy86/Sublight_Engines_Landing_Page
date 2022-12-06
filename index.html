@@ -10,6 +10,7 @@
     
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto
@@ -21,20 +22,16 @@
             <div class="logo">
                 <img src="images/logo_sublight.png">  
             </div>
-            <ul style = "list-style: none;">
-                <li>
-                    <a href = "#" class = "nav-links">Our Services</a>
-                </li>
-                <li>
-                    <a href = "#" class = "nav-links">Our Products</a>
-                </li>
-                <li>
-                    <a href = "#" class = "nav-links">About Us</a>
-                </li>
-                <li>
-                    <a href = "#" class = "nav-links">Contact Us</a>
-                </li>
-            </ul>     
+            <nav id="hamnav">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                <div class = "topNav">
+                        <a href = "#" class = "nav-links">Our Services</a>
+                        <a href = "#" class = "nav-links">Our Products</a>
+                        <a href = "#" class = "nav-links">About Us</a>
+                        <a href = "#" class = "nav-links">Contact Us</a>
+                </div> 
+            </nav>    
         </div>
     </header>
         <!-- VVVVVVVVVVVVVVVVVV ***OUR MISSION*** VVVVVVVVVVVVVVVVVV  -->
@@ -60,17 +57,17 @@
                     <img src="images\separator.png" alt="">
                 </div>
                 <div class="design">
-                    <div>
+                    <div class="d">
                     <img src="images\design.png" alt="">
-                    <h1>WE DESIGN</h1>
+                    <h3>WE DESIGN</h3>
                     </div>
-                    <div>
+                    <div class="d">
                     <img src="images\build.png" alt="">
-                    <h1>WE DESIGN</h1>
+                    <h3>WE DESIGN</h3>
                     </div>
-                    <div>   
+                    <div class="d">   
                     <img src="images\maintenance.png" alt="">
-                    <h1>WE MAINTAIN</h1>
+                    <h3>WE MAINTAIN</h3>
                     </div>
                 </div>
 
