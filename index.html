@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script src="js/main.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto
-    " rel="stylesheet">   
+    "rel="stylesheet">   
 </head>
 <body>
     <header>
@@ -28,7 +29,7 @@
                 <label for="hamburger">&#9776;</label>
                 <input type="checkbox" id="hamburger"/>
                 <div class = "topNav">
-                        <a href = "#" class = "nav-links">Our Services</a>
+                        <a href = "https://youtu.be/trKDC_c26f4" class = "nav-links">Our Services</a>
                         <a href = "#" class = "nav-links">Our Products</a>
                         <a href = "#" class = "nav-links">About Us</a>
                         <a href = "#" class = "nav-links">Contact Us</a>
@@ -155,20 +156,19 @@
                 <img src="images\separatorBlack.png" alt="">
             </div>
             <form class="name">
-                <!-- <fieldset> -->
                     <div class="formContainer">
                         <div class>
-                            <label for="name" >NAME *</label><br>
-                            <input required type="text" placeholder="Enter your full name" value="" class="form-control" name="name" id="name"><br>
+                            <label for="fullName" >NAME *</label><br>
+                            <input type="text" placeholder="Enter your full name" value="" class="form-control" name="name" id="fullName"><br>
                         </div><br>
                         <div class>
                             <label for="email" >EMAIL ADDRESS *</label><br>
-                            <input required type="text" placeholder="yourname@company.com" value="" class="form-control" name="email" id="email">
+                            <input type="text" placeholder="yourname@company.com" value="" class="form-control" name="email" id="email">
                         </div><br>
                         <div class="container2">
                             <div class="phone">
                             <label for="phone" >PHONE NUMBER</label><br>
-                            <input required type="text" placeholder="0 (000) 000-0000" value="" class="form-control" name="phone" id="phone">
+                            <input type="text" placeholder="0 (000) 000-0000" value="" class="form-control" name="phone" id="phone">
                             </div>
                             <!-- </div>
                         <div class> -->
@@ -185,10 +185,9 @@
                             </div>
                         </div><br><br>
                         <div class="submit">
-                            <button type="submit">SUBMIT</button>
+                            <button type="submit" id="submit-btn">SUBMIT</button>
                         </div>
                     </div> 
-                <!-- </fieldset> -->
             </form>
             </div>
         </div>
@@ -233,6 +232,6 @@
 
     </footer>
     <!-- SCRIPTS -->
-    <script src="" async defer></script>
+    <!-- <script src="" async defer></script> -->
 </body> <!-----end body----->
 </html>
