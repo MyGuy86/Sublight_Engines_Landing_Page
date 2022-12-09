@@ -32,7 +32,7 @@
     .topNav {
         position: absolute;
         left: 0;
-        top: 68px;
+        top: 135px;
         width: 100%;
 
         padding-top: 0;
@@ -61,6 +61,7 @@
         /* (A) BREAK INTO VERTICAL MENU */
     .topNav a {
         box-sizing: border-box;
+        outline: solid 1px white;
         width: 100%;
         display: block;
         height: 40px;

@@ -61,6 +61,7 @@
         /* (A) BREAK INTO VERTICAL MENU */
     .topNav a {
         box-sizing: border-box;
+        outline: solid 1px white;
         width: 100%;
         display: block;
         height: 40px;
